@@ -7,4 +7,5 @@ logs/
 /staticfiles/**/*.scss
 /staticfiles/**/*.css.gz
 /staticfiles/**/*/.scss
+/staticfiles/**/*.scss.gz
 

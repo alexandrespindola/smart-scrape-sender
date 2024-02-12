@@ -9,6 +9,6 @@
   }
   &:active, &:focus {
     color: $white;
-    background-color: $blue;
+    background-color: darken($blue, 20%);
   }
 }
