@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'app_scrape',
     'app_sender',
     'sass_processor',
+    'livereload',
+
 ]
 
 MIDDLEWARE = [
@@ -50,6 +52,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'livereload.middleware.LiveReloadScript',
+
 
 ]
 

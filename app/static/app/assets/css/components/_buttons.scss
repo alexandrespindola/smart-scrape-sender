@@ -1,0 +1,14 @@
+.button {
+  @include transition;
+  color: $white;
+  background-color: $red;
+  border: 0;
+  &:hover {
+    color: $black;
+    background-color: #c2ab6b;
+  }
+  &:active, &:focus {
+    color: $white;
+    background-color: $blue;
+  }
+}

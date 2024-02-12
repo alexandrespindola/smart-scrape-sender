@@ -1,0 +1,36 @@
+// Definindo as cores principais
+$dark-blue: #052f52; // Azul escuro 
+$gold: #c2ab6b; // Dourado
+$blue: #005bd1; // Azul
+$yellow: #f6de03; // Amarelo
+$orange: #ff9100; // Laranja
+$red: #ff0000; // Vermelho
+$dark: #333333; // Preto escuro
+$light: #f4f4f4; // Branco claro
+
+// Definindo as cores do Bulma
+$grey-darker: #999999;
+$grey-dark: #b3b3b3;
+$grey: #cccccc;
+$grey-light: #e6e6e6;
+$grey-lighter: #f2f2f2;
+$white: #ffffff;
+$black: #000000;
+
+// Definindo as cores do tema
+$primary: $orange;
+$info: $dark-blue;
+$success: $blue;
+$warning: $yellow;
+$danger: $red;
+
+// Definindo as cores do texto
+$text: $dark;
+$text-invert: findColorInvert($text);
+$link: $primary;
+$link-invert: findColorInvert($link);
+
+$tablet: 769px;
+$desktop: 1024px;
+$widescreen: 1216px;
+$fullhd: 1408px;

@@ -1,13 +1,9 @@
-{% extends 'app/base.html' %}
+{% extends 'app/base.html' %} {% load static %} {% block title %} Smart Scrape
+Sender {% endblock %} {% block content %}
+<div class="container is-flex is-flex-direction-column is-justify-content-center is-align-content-center mt-6 mb-6">
+  <h1 class="title has-text-centered has-text-white">Smart Scrape Sender HELLO</h1>
+  <p class="subtitle has-text-centered has-text-white">Hello World</p>
 
-{% load static %} 
-
-{% block title %} 
-Smart Scrape Sender
-{% endblock %} 
-
-{% block content %}
-<h1 class="title has-text-danger">Smart Scrape Sender</h1>
-<p class="subtitle has-text-danger">Hello World</p>
-<button class="button is-success">Click Me</button>
-{% endblock %} 
+  <button class="button is-align-self-center">Click Me</button>
+</div>
+{% endblock %}

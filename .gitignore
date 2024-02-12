@@ -4,3 +4,7 @@ logs/
 .sass-cache/
 .DS_Store
 .gz
+/staticfiles/**/*.scss
+/staticfiles/**/*.css.gz
+/staticfiles/**/*/.scss
+
