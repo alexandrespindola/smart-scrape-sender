@@ -1,0 +1,34 @@
+{% load static %}
+{% load sass_tags %}
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    
+    <link href="{% sass_src 'app/assets/css/main.scss' %}" rel="stylesheet" type="text/css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- Bulma Modal FX -->
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+
+    <!-- Favicon -->
+
+</head>
+    
+<body>
+
+    {% include 'app/containers/header.html' %}
+
+    {% block content %}{% endblock %}
+
+    {% include 'app/containers/footer.html' %}
+    
+    <script src="{% static 'app/assets/js/script.js' %}"></script>
+
+</body>
+</html>
