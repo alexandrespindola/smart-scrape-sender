@@ -1,4 +1,5 @@
 .env
+.sh
 npm-debug.log
 logs/
 .sass-cache/
