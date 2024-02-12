@@ -1,0 +1,14 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+
+<form method="post">
+    {% csrf_token %}
+    <h2>Recipient</h2>
+    {{ recipient_form.as_p }}
+    <h2>Message</h2>
+    {{ message_form.as_p }}
+    <button type="submit">Enviar</button>
+  </form>
+
+{% endblock %}

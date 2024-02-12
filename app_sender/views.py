@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def sender(request):
+    return render(request, 'app_sender/pages/sender.html')
